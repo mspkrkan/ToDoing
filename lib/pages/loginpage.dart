@@ -17,7 +17,10 @@ class _loginPageState extends State<loginPage> {
             onPressed: () {
               Get.back();
             },
-            child: Text("Back")),
+            child: Text(
+              "Back",
+              style: TextStyle(),
+            )),
       ),
     );
   }
