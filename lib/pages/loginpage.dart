@@ -14,13 +14,11 @@ class _loginPageState extends State<loginPage> {
     return Scaffold(
       body: Center(
         child: ElevatedButton(
-            onPressed: () {
-              Get.back();
-            },
-            child: Text(
-              "Back",
-              style: TextStyle(),
-            )),
+          onPressed: () {
+            Get.back();
+          },
+          child: Text("Back"),
+        ),
       ),
     );
   }
